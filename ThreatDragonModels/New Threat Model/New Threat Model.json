@@ -366,6 +366,13 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -958,6 +965,58 @@
             "target": {
               "cell": "c2db0d67-aa61-4334-ab42-c1fdb893bcbd",
               "port": "a765ec04-35b0-4a00-952e-e0bdd4f7083a"
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "d97099cc-81b3-4b3f-ac21-e442b988da68",
+            "source": {
+              "x": 660,
+              "y": 270
+            },
+            "target": {
+              "x": 770,
+              "y": 370
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "3b46851a-1813-4b6d-b825-2c5d07fb3959",
+            "source": {
+              "x": 316,
+              "y": 300
+            },
+            "target": {
+              "x": 410,
+              "y": 510
             }
           }
         ]
