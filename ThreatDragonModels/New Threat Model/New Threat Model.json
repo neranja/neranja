@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "1342984f-f5cd-4d10-86ad-9e8563de1f33",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "User",
@@ -154,6 +154,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -237,7 +238,6 @@
               ]
             },
             "id": "c2db0d67-aa61-4334-ab42-c1fdb893bcbd",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Admin",
@@ -270,6 +270,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -353,7 +354,6 @@
               ]
             },
             "id": "2c2a6918-89ab-43ae-ac49-6ba08c12488d",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Web \nApplication \nServer",
@@ -392,6 +392,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -475,7 +476,6 @@
               ]
             },
             "id": "772c064c-87c7-4983-81fa-9ca46cf17934",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "Database",
@@ -515,6 +515,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -598,7 +599,6 @@
               ]
             },
             "id": "a0c75cf5-efd1-4649-b1a1-4ba6f6a2ae64",
-            "zIndex": 5,
             "data": {
               "type": "tm.Store",
               "name": "Web Application \nconfig",
@@ -678,7 +678,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Web Request",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -690,7 +690,7 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "Web Request"
             ],
             "id": "f01eeb24-f438-4970-9012-c605d0ae5c52",
             "source": {
